@@ -3,7 +3,7 @@ import React from "react";
 const CircularIcon = (props) => {
   const { icon } = props.data;
   return (
-    <div className="rounded-full p-3 border border-gray-300 w-fit hover:border-2 hover:border-indigo-700">
+    <div className="flex flex-col justify-around items-center rounded-full border border-gray-300 w-[35px] h-[35px] hover:border-2 hover:border-indigo-700 lg:w-[70px] lg:h-[70px]">
       {icon}
     </div>
   );
